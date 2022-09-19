@@ -238,7 +238,8 @@ predictions_df
 
 Then we decided the best statistical assessment of the results was to calculate the percent error between the prediction and the actual. The model on average preformed pretty well; the average percent error was 28.66% but is reduced to 15% when the biggest outlier is removed. The Côte d'Ivoire had an extreme outlier in predicted yield for sweet potatoes with a percent error of 8484.30%. The median percent error is perhaps more telling at 6.8%. There were a few other outliers that were over 100% error. Looking at the data for the Côte d'Ivoire, it appears that there was in increase in nutrients applied which could account for the model increase in yield prediction. 
 
-![Screen Shot 2022-09-15 at 9 45 29 AM](https://user-images.githubusercontent.com/99676466/190448588-854edacd-e295-428d-9d4d-de3becaa3de6.png)
+![Screen Shot 2022-09-15 at 9 45 29 AM](https://user-images.githubusercontent.com/99676466/190448588-854edacd-e295-428d-9d4d-de3becaa3de6.png)      
+  ![Screen Shot 2022-09-18 at 5 40 56 PM](https://user-images.githubusercontent.com/99676466/190933795-77603abe-3dfe-4e81-9407-27270c8a0645.png)
 
 In this model run we scaled the data with StandardScaler from the sklearn library, but because of the nature of the dataframe and its structure, and our selection of using a span of five years to prediction the sixth year, a choice to make more of a forecasting model than a predictive one, we only had a few data points for each country. This meant that rather than using train_test_split(), the model used the data points as the training data and the forecasted point as the testing data. 
 
