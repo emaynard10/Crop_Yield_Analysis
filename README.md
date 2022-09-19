@@ -21,7 +21,7 @@ In order to create a map for our dashboard we also added [latitude and longitude
 ## Questions we Hope to Answer
 - Which countries produce the most crop yield per crop? 
 - What conditions affected crop yield the most?
-- Using the data, can we accurately predict how much yield counties will produce in the future??
+- Using the data, can we accurately predict how much yield countries will produce in the future??
 
 ## Tools and Technologies
 Python, Pandas, Jupyter Notebooks, Postgresql, SQL, SQLALchemy, sklearn, matplotlib, Leaflet, Mapbox, Tableau, Javascript, html/css
@@ -262,4 +262,4 @@ It would be worth expanding the model in future work by including more data poin
 Our biggest challenge once we cleaned the data, was that to show correlation we had to filter out and run the model on each country which further reduced the amount of data for each crop. 
 
 #### Technical or other Challenges
-Finding complete data was a challenge we had. As soon as we realized the rainfall data was repetitive and uninformative, we realized it was hard to find data for each country that was complete enough to add to the analysis we had. Finding complete data for other factors also proved challenging.
+Finding complete data was a challenge we had. As soon as we realized the rainfall data was repetitive and uninformative, we realized it was hard to find data for each country that was complete enough to add. Finding complete data for other factors also proved challenging.
