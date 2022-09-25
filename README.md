@@ -263,3 +263,5 @@ Our biggest challenge once we cleaned the data, was that to show correlation we 
 
 #### Technical or other Challenges
 Finding complete data was a challenge we had. As soon as we realized the rainfall data was repetitive and uninformative, we realized it was hard to find data for each country that was complete enough to add. Finding complete data for other factors also proved challenging.
+
+[Contact Emily](mailto:emaynard10@gmail.com)
